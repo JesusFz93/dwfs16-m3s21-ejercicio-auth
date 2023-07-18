@@ -18,6 +18,25 @@ const obtenerProductos = async (req, res) => {
   }
 };
 
+const obtenerProducto = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const product = await Product.findById(id);
+
+    return res.json({
+      ok: true,
+      msg: "Producto obtenido",
+      data: product,
+    });
+  } catch (error) {
+    return res.status(500).json({
+      ok: false,
+      msg: "Error en el servidor",
+      data: {},
+    });
+  }
+};
+
 const crearProducto = async (req, res) => {
   try {
     const { name, description, price, image } = req.body;
@@ -48,4 +67,5 @@ const crearProducto = async (req, res) => {
 module.exports = {
   crearProducto,
   obtenerProductos,
+  obtenerProducto,
 };

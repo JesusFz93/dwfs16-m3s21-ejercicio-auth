@@ -1,8 +1,11 @@
-# @api = http://localhost:4000/api/productos
-@api = https://dwfs16-m3s21-ejercicio-auth.onrender.com/api/productos
+@api = http://localhost:4000/api/productos
+# @api = https://dwfs16-m3s21-ejercicio-auth.onrender.com/api/productos
 
 ### sign in
 GET {{api}}
+
+### sign in
+GET {{api}}/64b5a44c31e4901ba8cc7680
 
 ### sign in
 POST {{api}}
