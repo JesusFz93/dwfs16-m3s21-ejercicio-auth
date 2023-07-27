@@ -21,4 +21,4 @@ Content-Type: application/json
 
 ### renovar token
 {{api}}/renew
-x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YTMyZTRhN2VmMmQwNjdmNjZlMDNhMSIsImlhdCI6MTY4OTYyNTA1OSwiZXhwIjoxNjg5NjM5NDU5fQ.3zfXTBWRSmOgM1jB0GI09mYHoQO7y5wXKuFxQle1cD0
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0YzE1MzMwMTQ4OGU4Y2QzNTViYzNiZCIsImlhdCI6MTY5MDM5MTM1NCwiZXhwIjoxNjkwNDA1NzU0fQ.1yFfw8Whl3_4v6CJNejU5bsBq5mseM-tPCzdkJlopEI
